@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ![app](https://user-images.githubusercontent.com/88229259/216305951-23982335-46be-489b-892d-a4264ee2e1b1.PNG)
 
 ### For prediction upload the image
-![predict](https://user-images.githubusercontent.com/88229259/216305995-6e439b42-dbe5-4752-a671-6f0043bd9549.PNG)
+![predict](https://user-images.githubusercontent.com/88229259/216311145-d8cf5ac5-5a03-4e86-8fc1-98075e78c67a.PNG)
 
 
 ### For prediction run prediction.py and pass the location of image
