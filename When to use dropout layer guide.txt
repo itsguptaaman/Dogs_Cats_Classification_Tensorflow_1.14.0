@@ -1,0 +1,32 @@
+Q Where to place Dropout Layer???
+A. 
+
+1. Before Flattening Layer [FC]
+
+2. After Flattening Layer [FC]Eg 
+Convo2d --> Convo2d --> Max-pooling --> Dropout (In between the dense layer)
+
+Q What not to do??
+* Before Flattening Layer:
+1. Away from flatterning minimum two, three layers.
+Q Why???
+A Whe we are at the last part before flaterning it means features are pretty much ready,
+at that point of time we dont want to loose information
+2. Not at top, why???
+A. Because it is the first step of extracting information
+If it was my last convolution block 
+Do not use dropout layer.
+
+**Summary**
+Before Flatterning
+1. Do not use it in first Convolution block.
+2. Do not use it in last Convolution block.
+3. Do not use it in any transition block(Max pooling layer).
+
+After Flatterning
+1. After Flatterning
+2. You can place it in betwen FC 
+3. Any place before Activation function
+
+
+
