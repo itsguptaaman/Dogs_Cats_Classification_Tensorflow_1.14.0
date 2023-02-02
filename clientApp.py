@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import os
 from flask_cors import CORS, cross_origin
-from com_in_ineuron_ai_utils.utils import decodeImage
+from classification_utils.utils import decodeImage
 from predict import dogcat
 
 os.putenv('LANG', 'en_US.UTF-8')
@@ -41,4 +41,4 @@ def predictRoute():
 if __name__ == "__main__":
     clApp = ClientApp()
     #app.run(host='0.0.0.0', port=port)
-    app.run(host='0.0.0.0', port=8000, debug=True)
+    app.run(host='127.0.0.1', port=8000, debug=True)

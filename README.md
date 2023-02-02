@@ -8,5 +8,12 @@ pip install -r requirements.txt
 ### To train the model run cnn.py
 ![training](https://user-images.githubusercontent.com/88229259/216297731-d105cc2b-f959-4f32-8d5a-d7be53c2bfd9.PNG)
 
+### For runnig the app run clientApp.py
+
+### For prediction upload the image
+
+
 ### For prediction run prediction.py and pass the location of image
 ![Prediction](https://user-images.githubusercontent.com/88229259/216297915-fff39d45-5612-41fe-8b93-af1c7ff472b2.PNG)
+
+
